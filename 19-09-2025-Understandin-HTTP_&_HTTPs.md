@@ -34,3 +34,39 @@
 * 301       🔀      REDIRECT
 * 404       ❌      NOT FOUND
 * 500       💥      SERVER ERROR
+
+> when we request anything from server then along with response a status code is sent it helps to know the actual status whether the request was successful, surver error or something else
+
+## Why HTTPS?
+> Hyper Text Transfer Protocol Secured
+> Https helps to establish secured connection between client and server using Encryption
+> in http man-in-the-middle (MIM) attack was possible but in https it is not possible due to data encrypt
+
+
+## How HTTPS Secure Data
+* SSL /TLS Encryption (By Default in HTTPS)
+* 3Way Handshake = Shared Key (Client Server only)
+* Safe Tunnel
+
+```
+Shared Key works like client given a key ABC and server given a key DEFG they combine both key and make a shared key with it BCD so now when ever any request response takes place along with the response BCD will be attached and thats how they securely share data as well as know the authenticity that data is going and coming from the actual client and server no hacker or data leak involved it all happend on the basis of https based rule
+```
+
+# Proxy VS Reverse Proxy VS VPN
+
+* Proxy - (Acts like a middle man between you and internet)
+    * Your device → 🖥️ → asks the proxy → 🧍‍♂️ → the proxy talks to the website → 🌐
+    * The website sends the info back to the proxy, and the proxy gives it to you.
+    * Proxy works only in the single browser where the proxy is configured
+    * Proxy Client Side ( Hides User )
+
+* VPN - Virtual Private Network
+    * vpn provides you a server(As per you choosed region) through wchich you explore internet
+    * VPN works in the Device where the VPN is configured
+    * Encrypt all traffic
+    * Access Blocked Sites
+
+* Reverse Proxy - (Act like Receptionist)
+    * It sits in front of the real server and handles requests coming in from the internet.
+    * it manages Load balancing, SSL offloading, Caching, Firewall & Security, Hides real servers from attackers
+    * Reverse Proxy Server Side ( Hides Server)
