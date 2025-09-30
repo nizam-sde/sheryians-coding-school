@@ -22,7 +22,8 @@
     * Browser - Chrome, Brave, Opera
 
 > In HTML we everything write inside tags
-> BoilerPlate is a mandatory default code reuired in every html code.
+> BoilerPlate is a mandatory default code required in every html code.
+> HTML is used for insertion of content as well as to manage SEO of website
 
 >Head Tages Stores Data Related To Website Also It Is Not Visible To The User
 
@@ -44,5 +45,5 @@
 * For Unordered List    -                   ` <ul> </ul> `
 * For List Items        -                   ` <li> </li> `
 * For Link              -                   ` <a href= ""> `
-* For random text       -                   ` lorem `
+* For random text       -                   ` lorem - random text insertion syntax`
 * For embed website     -                   ` <iframe src="" title=""> </iframe> `
