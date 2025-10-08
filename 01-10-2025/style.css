@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/* html,
+body {
+  width: 100%;
+  height: 100%;
+} */
+body {
+  background-color: #80808026;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 43px auto;
+  padding: 0 25px;
+  font-size: 31px;
+}
+.navLeft a,
+.navRight a {
+  color: black;
+  margin: 11px;
+  font-weight: 500;
+}
+.navMiddle {
+  padding-right: 25px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+main h1 {
+  font-family: cursive;
+  font-size: 240px;
+  text-align: center;
+  line-height: 167px;
+  font-weight: 100;
+}
+.descriptionProduct {
+  width: 22vw;
+  padding: 84px 0px 0px 42px;
+}
+.descriptionProduct h2,
+.descriptionProduct p {
+  padding: 6px 0;
+}
+.modelsPicture {
+  position: absolute;
+  right: 300px;
+  bottom: 0px;
+}
+.modelsPicture img:first-child{
+  bottom: 100px;
+  position: relative;
+}
+.modelsPicture img:nth-child(2){
+  position: relative;
+  bottom: 30px;
+  right: 40px;
+}
+.modelsPicture img:last-child{
+  position: relative;
+  bottom: 100px;
+  right: 60px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 53px;
+  position: absolute;
+  width: 100%;
+  bottom: 18px;
+}
+footer > h2 {
+  font-style: italic;
+}
+footer:last-child {
+  text-decoration: underline;
+}
