@@ -1,0 +1,97 @@
+@font-face {
+    font-family: SF Pro Text;
+    src: url(./sf-pro-text_regular.woff2);
+}
+@font-face {
+    font-family: SF Pro Semibold;
+    src: url(./sf-pro-text_semibold.woff2);
+}
+@font-face {
+    font-family: SF Pro Bold;
+    src: url(./sf-pro-display_bold.woff2);
+}
+@font-face {
+    font-family: SF Pro Regular;
+    src: url(./sf-pro-display_regular.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+nav{
+    background-color: rgb(24 24 24);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding: 0 125px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+nav a{
+    color: white;
+}
+main{
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+    height: 93.5%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+}
+main h2{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 18px 0px;
+    padding-top: 46px;
+}
+main h3{
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+h2, h3{
+    color: white;
+    font-size: 22px;
+}
+.links{
+padding-top: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:  15px;
+}
+.links button{
+    padding: 12px 22px;
+    font-size: 15px;
+    background-color: #0077ED;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+.links .bluebtn{
+    background-color: transparent;
+    border: 2px solid #0077ED;
+    color: #0077ED;
+}
+.links button:first-child:hover{
+    background-color: #0381fe;
+}
+.links .bluebtn:hover{
+   background-color: #0077ED;
+   color: white;
+}
