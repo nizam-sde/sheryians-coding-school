@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgb(114, 114, 114), rgba(240, 238, 238, 0.876));
+}
+main{
+    padding-top: 30PX;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    height: 250px;
+    width: 220px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 25px rgb(0, 0, 0),
+    10px 10px 28px rgba(57, 56, 56, 0.21) ;
+}
+.card img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.zoom img{
+   object-position: top;
+}
+.card button{
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.card button:hover{
+  background: linear-gradient(rgb(235, 193, 193), rgb(176, 176, 208));
+}
+
+@keyframes ringBell {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+  50% {
+    transform: translateX(10px) rotate(5deg);
+  }
+  75% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+.card:hover {
+  animation: ringBell 0.4s ease 1; 
+  background-color: blanchedalmond;
+}
+
