@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to right bottom, transparent 80px, rgb(90, 90, 191), grey);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    background-image: url(https://i.pinimg.com/736x/85/96/7e/85967e68f64aefb470fee62906914120.jpg);
+    /* background-position: top center; */
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.effect{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: -40px; 
+    background:linear-gradient( transparent , rgb(0, 0, 0));
+}
+.effect h2{
+font-size: 50px;
+padding-top:100px;
+opacity: 0;
+
+}
+.effect h2:hover{
+opacity: 1;
+padding-top: 100px;
+background-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif);
+background-clip: text;
+
+}
+.card:hover .effect{
+    bottom: 0;
+    text-decoration: underline;
+    transition: all ease 0.3s;
+    color: transparent;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.02);
+     transition: all ease 0.3s;
+}
