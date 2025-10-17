@@ -17,4 +17,4 @@
 
 * Sticky Position
     * `  behaves like relative position once cross the viewport normal area start behaving like fixed `
-    * if sticky used in sub container then after the sub container ends along with container sticky element also be scrolled up.
+    * if sticky used in sub container then after the sub container ends along with container sticky element will also be scrolled up.
